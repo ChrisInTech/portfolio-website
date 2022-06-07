@@ -1,0 +1,140 @@
+    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto&display=swap');
+    * {
+        margin: 0;
+        padding: 0;
+        word-wrap: break-word;
+        box-sizing: border-box;
+    }
+    
+    html {
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+    }
+    
+    nav {
+        display: flex;
+    }
+    
+    .logo {
+        display: flex;
+    }
+    
+    .logo p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 25em;
+        font-size: 5em;
+    }
+    
+    .logo span {
+        color: deepskyblue;
+    }
+    
+    nav ul {
+        width: 100%;
+        font-size: 3em;
+        list-style-type: none;
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20%;
+        justify-content: space-evenly;
+        justify-items: end;
+        align-items: center;
+    }
+    
+    nav li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 5em;
+        border: 1px solid deepskyblue;
+        color: deepskyblue;
+        border-radius: 1em;
+    }
+    
+    ul li a {
+        text-decoration: none;
+    }
+    
+    nav li:hover {
+        border: 1px solid white;
+        background-color: deepskyblue;
+    }
+    
+    a:hover {
+        color: white;
+    }
+    
+    .home {
+        height: 50em;
+        display: flex;
+    }
+    
+    .left {
+        width: 50%;
+        background-color: deepskyblue;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        grid-column-gap: 30px;
+        grid-row-gap: 0px;
+    }
+    
+    .left p {
+        font-size: 3em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .left h1 {
+        font-size: 5em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .left h2 {
+        font-size: 3em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .left ul {
+        font-size: 4em;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .right {
+        width: 50%;
+        background-color: darkblue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .right img {
+        border-radius: 10%;
+    }
+    
+    .aboutme {
+        display: flex;
+    }
+    
+    .table1 {
+        width: 50%;
+        height: 25em;
+        background-color: darkblue;
+        color: white;
+        font-size: 2em;
+    }
+    
+    .table2 {
+        width: 50%;
+        height: 25em;
+        background-color: deepskyblue;
+        font-size: 2em;
+    }
